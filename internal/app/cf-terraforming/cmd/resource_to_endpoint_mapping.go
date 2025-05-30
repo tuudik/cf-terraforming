@@ -44,8 +44,8 @@ var resourceToEndpoint = map[string]map[string]string{
 		"get":  "/zones/{zone_id}/hold",
 	},
 	"cloudflare_zone_subscription": {
-		"list": "",
-		"get":  "/zones/{identifier}/subscription",
+		"list": "/zones",
+		"get":  "/zones/{zone_id}/subscription",
 	},
 	"cloudflare_load_balancer": {
 		"list": "/zones/{zone_id}/load_balancers",
