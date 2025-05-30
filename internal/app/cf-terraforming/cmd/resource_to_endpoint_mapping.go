@@ -417,7 +417,7 @@ var resourceToEndpoint = map[string]map[string]string{
 	},
 	"cloudflare_list_item": {
 		"list": "/accounts/{account_id}/rules/lists/{list_id}/items",
-		"get":  "/accounts/{account_identifier}/rules/lists/{list_id}/items/{item_id}",
+		"get":  "/accounts/{account_id}/rules/lists/{list_id}/items/{item_id}",
 	},
 	"cloudflare_stream": {
 		"list": "/accounts/{account_id}/stream",
